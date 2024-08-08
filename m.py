@@ -8,10 +8,10 @@ import os
 from keep_alive import keep_alive
 keep_alive()
 # insert your Telegram bot token here
-bot = telebot.TeleBot('7216356183:AAGfF-iBxpUWDsvKZrijMNq7Uf1Bx4fmAow')
+bot = telebot.TeleBot('7066622457:AAFxdLrGSgYzATdy0PYuVgJyw9qhgVpNDxA')
 
 # Admin user IDs
-admin_id = ["6949527459"]
+admin_id = ["634941338"]
 
 # File to store allowed user IDs
 USER_FILE = "users.txt"
@@ -358,7 +358,7 @@ def show_help(message):
 💥 /admincmd : Shows All Admin Commands.
 
 Buy From :- @alokhubro
-Official Channel :- https://t.me/V3NOM_CH3AT
+Official Channel :- https://t.me/AssianBgmiHub
 '''
     for handler in bot.message_handlers:
         if hasattr(handler, 'commands'):
